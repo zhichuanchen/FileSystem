@@ -1,0 +1,36 @@
+CZC
+1
+NULL
+Dir1 1
+Dir2 1
+Dir3 1
+Dir.txt 2
+This is CZC's txt.
+Wish you have a good day.#
+#
+Dir1
+1
+CZC
+Dir11 1
+Dir1.txt 2
+This is Dir1's txt.
+Wish you have a good day.#
+#
+Dir2
+1
+CZC
+Dir2.txt 2
+This is Dir2's txt.
+Wish you have a good day.#
+#
+Dir3
+1
+CZC
+#
+Dir11
+1
+Dir1
+Dir11.txt 2
+This is Dir11's txt.
+Wish you have a good day.#
+#
