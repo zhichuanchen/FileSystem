@@ -1,0 +1,59 @@
+This is a simulation of Windows file system.
+This system simulates the cmd commands that would focus on folders and files.
+
+The program will open 'menu.txt' which contain all the data.
+And will save the data to 'save.txt' after operation in the system. 
+
+
+Command Menu
+1) `cd` Navigate to the current location
+   - `cd ..` Return to the parent folder
+   - `cd !` Return to the initial folder
+   - `cd "subfolder"` Navigate to the specified subfolder in the current folder
+   - `cd "absolute path"` (Absolute path format: /A/B/C) Navigate to the specified location
+
+2) `dir` Display the contents of the current folder
+
+3) `mkdir` Create a new folder in the current directory
+   - `mkdir "folder name"`
+
+4) `more` Display the content of a document in the current folder
+   - `more "document name"`
+
+5) `copy` Copy a file from the current folder to the target folder
+   - `copy "document to be copied" "absolute path of the target folder"`
+   - Example: `copy d.txt /A/B/D`
+
+6) `rmdir` Delete an empty folder in the current directory
+   - `rmdir "folder name"`
+
+7) `find` Search for a string `S` in documents in the current folder
+   - `find S`
+
+8) `attrib` Display the attributes of a document in the current folder
+   - `attrib "file name"`
+
+9) `del` Delete a document in the current folder
+   - `del "file name"`
+
+10) `xcopy` Copy a folder and its subfiles
+    - `xcopy "current folder" "current folder name"`
+    - `xcopy "current folder" "absolute path"`
+
+11) `import` Read a document from external storage into the system's current directory
+    - `import "read path" "desired name"`
+    - Example: `import E:\\hello.txt hello1.txt`
+
+12) `export` Export a document from the current folder
+    - `export "document to export" "absolute path of external storage"`
+    - Example: `export hello1.txt E:\\hello.txt`
+
+13) `help` View the command directory
+    - Type `help`
+
+14) `exit` Exit the system
+    - Type `exit`
+    - Prompt to save changes made during the current system session; if saved, file relationships will be stored in `save.txt`
+
+15) `showAll`
+    - Type `showAll` to display information about all folders, including subfolders
